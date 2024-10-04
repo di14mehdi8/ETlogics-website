@@ -4,6 +4,21 @@ body {
   color: #040000;
 }
 
+
+#my-input {
+
+  background-color: #fff;
+  color: #000;
+}
+
+.message-box {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 .layout_padding {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -387,7 +402,7 @@ a:focus {
   font-family: 'Merriweather Sans', sans-serif;
   margin-bottom: 0;
 }
-
+/*
 .feature_section .feature_container .box:hover, .feature_section .feature_container .box.active {
   background-color: #ff8a1d;
   color: #ffffff;
@@ -400,7 +415,7 @@ a:focus {
 .feature_section .feature_container .box:hover .img-box svg path, .feature_section .feature_container .box.active .img-box svg path {
   fill: #ffffff;
 }
-
+*/
 .about_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -503,8 +518,8 @@ a:focus {
 }
 
 .service_section .box .img-box {
-  width: 65px;
-  height: 65px;
+  width: 80%;
+  height: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -539,11 +554,11 @@ a:focus {
   background-color: #ff8a1d;
   color: #ffffff;
 }
-
+/*
 .service_section .box:hover .img-box img {
   -webkit-filter: brightness(0) invert(1);
           filter: brightness(0) invert(1);
-}
+}*/
 
 .service_section .btn-box {
   display: -webkit-box;
